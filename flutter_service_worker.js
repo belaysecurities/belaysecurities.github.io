@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "main.dart.js": "128bfee6abffdce0055e2cad73bd1d7a",
+  "main.dart.js": "ffd285b08bed217c72767caa8aa4a5a5",
 "manifest.json": "f5688e0ea966e1611fdc70472c946dc5",
 "assets/google_fonts/Raleway-Italic.ttf": "f73026bcd64e5a5265ab616e5083cd48",
 "assets/google_fonts/OpenSans-ExtraBold.ttf": "fb7e3a294cb07a54605a8bb27f0cd528",
@@ -60,14 +60,15 @@ const RESOURCES = {
 "assets/images/charge.png": "be9e8913dd1996ea9225e3ddb4999498",
 "assets/images/piggy.png": "44ff07e7a7b7b10431bfb31de2bedadf",
 "assets/images/confetti.png": "cdc8f1fe05560f6637550e0a80c3569d",
+"assets/images/belay_favicon_32x32.jpg": "0f648a538bc9ad62cac17fe1e753fb2c",
 "assets/images/calendar.png": "a748c29cef51a4b540e85b9862aa1cdb",
 "assets/images/contingency.png": "0a75d8a6220b71febe9c8d4cf1c006d4",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
-"assets/AssetManifest.json": "abda0e40f78efdd61d4690c647acad62",
+"assets/AssetManifest.json": "9579be50a1643b4a861ad75236629ddb",
 "assets/NOTICES": "8721b6d775787d834aab4b8128b0ac92",
-"index.html": "3c2182e7a2d6d78c87aa72d8bef5f3cf",
-"/": "3c2182e7a2d6d78c87aa72d8bef5f3cf",
+"index.html": "01e2224268ca330454f86ccad10bc469",
+"/": "01e2224268ca330454f86ccad10bc469",
 "version.json": "c84c11bc65b61fea8ca067f67ddc8059",
 "icons/logo.png": "9f286930c0cbdf18d5cfc45fcc8a54ae",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
