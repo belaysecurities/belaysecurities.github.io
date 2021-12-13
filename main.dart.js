@@ -39393,14 +39393,14 @@ s.toString
 s=M.a1(m,L.aw("Welcome to Belay",m,m,m,s,C.B,m),C.h,m,m,m,m,m,m,new V.V(0,20,0,10),m,m,m)
 r=l.z
 r.toString
-q=M.a1(m,L.aw("Let's guarantee your income.",m,m,m,r,C.B,m),C.h,m,m,m,m,m,m,new V.V(0,0,0,40),m,m,m)
+q=M.a1(m,L.aw("Take control of your income",m,m,m,r,C.B,m),C.h,m,m,m,m,m,m,new V.V(0,0,0,40),m,m,m)
 k=M.a1(m,D.iZ(L.aw("Sign up with Uber",m,m,m,l.ch,m,m),new L.a3N(this,b),k.bh.a),C.h,m,m,m,m,m,m,new V.V(0,30,0,0),m,m,m)
 p=t.p
 r=M.a1(m,T.ed(H.a([U.acU(L.aw("Log in",m,m,m,r,m,m),new L.a3O(this,b),m)],p),C.I,C.dl,C.r),C.h,m,m,m,m,m,m,new V.V(0,4,0,20),m,m,m)
 o=A.iu(m,m,new P.A(4283782485),m,C.dK,m,m,m,m,m,m,12,m,m,m,m,!0,m,m,m,m,m,m,m)
 n=N.Ax(m)
 n.C=new L.a3P()
-return M.il(m,T.f8(M.a1(m,T.br(H.a([j,s,q,k,r,T.f8(L.aqg(Q.fP(m,n,o,"\xbfespa\xf1ol?")),m,m)],p),C.a4,C.w,C.r),C.h,m,m,m,m,m,m,new V.V(30,0,30,0),m,m,m),m,m),m)}}
+return M.il(m,T.f8(M.a1(m,T.br(H.a([j,s,q,k,r,T.f8(L.aqg(Q.fP(m,n,o,"Espa\xf1ol")),m,m)],p),C.a4,C.w,C.r),C.h,m,m,m,m,m,m,new V.V(30,0,30,0),m,m,m),m,m),m)}}
 L.a3N.prototype={
 $0:function(){var s=V.hh(new L.a3M(this.a),null,t.z)
 return K.bZ(this.b,!1).fj(s)},
@@ -39754,7 +39754,7 @@ $1:function(a){var s=this.b.$2(a,this.a.a)
 return s},
 $S:15}
 K.qy.prototype={
-E:function(a,b){return D.rk("We split our day into 4 sessions of 6 hours - morning, afternoon, evening, and overnight. Choose the days you want to drive Uber, and how many hours in each session you want to be stabilized. You can cancel and add sessions later on, and there are no penalties for missing one.",null,"Continue",null,"images/calendar.png",new K.XJ(b,K.Y(b)),"Choose your stabilized sessions")}}
+E:function(a,b){return D.rk("We split our day into 4 blocks - morning, afternoon, evening, and overnight. Select the blocks you want to drive Uber and roughly how many hours each. You can cancel and add sessions later on, and there are no penalties for missing one.",null,"Continue",null,"images/calendar.png",new K.XJ(b,K.Y(b)),"Choose your stabilized sessions")}}
 K.XJ.prototype={
 $0:function(){var s=0,r=P.S(t.z),q=this,p,o,n
 var $async$$0=P.M(function(a,b){if(a===1)return P.P(b,r)
