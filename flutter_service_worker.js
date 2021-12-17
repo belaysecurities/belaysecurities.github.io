@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "main.dart.js": "14459032de9eb0b8b719b14b741e9d52",
+  "main.dart.js": "4b8f4e02bbf29164a70b8f9543ccee21",
 "manifest.json": "f5688e0ea966e1611fdc70472c946dc5",
 "assets/google_fonts/Raleway-Italic.ttf": "f73026bcd64e5a5265ab616e5083cd48",
 "assets/google_fonts/OpenSans-ExtraBold.ttf": "fb7e3a294cb07a54605a8bb27f0cd528",
@@ -33,6 +33,7 @@ const RESOURCES = {
 "assets/google_fonts/Raleway-MediumItalic.ttf": "a55ff2cd6e2cffc65817240e14da6813",
 "assets/google_fonts/OpenSans-Light.ttf": "2d0bdc8df10dee036ca3bedf6f3647c6",
 "assets/google_fonts/OpenSans-Bold.ttf": "1025a6e0fb0fa86f17f57cc82a6b9756",
+"assets/assets/robot.png": "0ac0f45080b43383034aa9d12969fac7",
 "assets/assets/logo.png": "d8fb4c8da6b62378c1e55254a741bad9",
 "assets/assets/uber.png": "c35a42b3ae57008bf8b8416a79652efb",
 "assets/assets/graph.png": "7dcd5b52b52a80c7450c1ad0ac1be99b",
@@ -57,6 +58,7 @@ const RESOURCES = {
 "assets/images/car.png": "9eae4ed46338082b116751c745b7b932",
 "assets/images/robot.png": "9dcdf1b2b06127b85587e3e313d5cc6b",
 "assets/images/logo.png": "853d2d2d37bca06431a3b0a3db975295",
+"assets/images/charts.png": "28c55453b1a7e928dc6f85c9157f5e96",
 "assets/images/charge.png": "be9e8913dd1996ea9225e3ddb4999498",
 "assets/images/piggy.png": "44ff07e7a7b7b10431bfb31de2bedadf",
 "assets/images/confetti.png": "cdc8f1fe05560f6637550e0a80c3569d",
@@ -65,10 +67,10 @@ const RESOURCES = {
 "assets/images/contingency.png": "0a75d8a6220b71febe9c8d4cf1c006d4",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
-"assets/AssetManifest.json": "9579be50a1643b4a861ad75236629ddb",
+"assets/AssetManifest.json": "44536bc51a5ae5cb61cf27671e6419c5",
 "assets/NOTICES": "8721b6d775787d834aab4b8128b0ac92",
-"index.html": "c2dcad7f31be2767d0ac9e4e3ae49e80",
-"/": "c2dcad7f31be2767d0ac9e4e3ae49e80",
+"index.html": "cd054d6fff80798c061c8c7fae801df7",
+"/": "cd054d6fff80798c061c8c7fae801df7",
 "version.json": "c84c11bc65b61fea8ca067f67ddc8059",
 "icons/logo.png": "9f286930c0cbdf18d5cfc45fcc8a54ae",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
