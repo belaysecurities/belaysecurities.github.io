@@ -36542,7 +36542,7 @@ B.lw.prototype={
 D:function(a,b){var s=this,r=null,q=s.e,p=q==="Back",o=p?s.d:new B.a_e(s,b),n=A.fy(r,r,C.t,r,C.cC,r,r,r,r,r,r,12,r,r,r,r,!0,r,r,r,r,r,r,r),m=N.rG(r)
 m.A=new B.a_f()
 n=T.fe(L.a9V(Q.eM(r,m,n,"Learn more."),r),r,r)
-return D.qh("We use your unique driver profile and chosen schedule to generate your minimum guarantee. If you make less than we guarantee you driving for Uber, Belay will pay you the difference. Belay\u2019s service fee of 0-4% kicks in only in cases your earnings exceed our guarantee. All other cases, it is free.",n,q,p?r:s.d,"images/car.png",o,"How it works")}}
+return D.qh("We use your unique driver profile and chosen schedule to tailor your minimum guarantee. If you make less than we guarantee you driving for Uber, Belay will pay you the difference. Belay\u2019s service fee of 0-4% kicks in only in cases your earnings exceed our guarantee. sAll other cases, it is free.",n,q,p?r:s.d,"images/car.png",o,"How it works")}}
 B.a_e.prototype={
 $0:function(){var s=V.f1(new B.a_d(this.a),null,t.z)
 return K.bK(this.b,!1).eI(s)},
@@ -36894,7 +36894,7 @@ $1:function(a){var s=this.b.$2(a,this.a.a)
 return s},
 $S:13}
 K.pv.prototype={
-D:function(a,b){return D.qh("We split our day into 4 blocks - morning, afternoon, evening, and overnight. Select the blocks you want to drive Uber and roughly how many hours each. You can cancel and add sessions later on, and there are no penalties for missing one.",null,"Continue",null,"images/calendar.png",new K.UT(b,K.R(b)),"Build your guarantee by choosing your time blocks")}}
+D:function(a,b){return D.qh("We split our day into 4 blocks - morning, afternoon, evening, and overnight. Select the blocks you want to drive Uber and roughly how many hours each. You will be guaranteed only for the times you actually drive, but there is no penalty for missing a session.",null,"Continue",null,"images/calendar.png",new K.UT(b,K.R(b)),"Build your guarantee by choosing your time blocks")}}
 K.UT.prototype={
 $0:function(){var s=0,r=P.V(t.z),q=this,p,o,n
 var $async$$0=P.Q(function(a,b){if(a===1)return P.S(b,r)
@@ -36959,7 +36959,7 @@ break}s.e.$2(b,c)},
 D:function(a,b){var s=this,r=s.gads(s)
 return M.i2(null,T.b7(H.a([Y.a78(new P.z(4294537320),C.rj,s.r.a,r,"Morning",1,"6 AM - 12 PM"),Y.a78(new P.z(4289711103),C.rf,s.x.a,r,"Afternoon",2,"12 PM - 6 PM"),Y.a78(new P.z(4283652506),C.rh,s.y.a,r,"Evening",3,"6 PM - 12 PM"),Y.a78(new P.z(4278190080),C.rd,s.f.a,r,"Overnight",0,"12 AM - 6 AM")],t.p),C.a1,C.v,C.p),null)}}
 N.pW.prototype={
-D:function(a,b){return D.qh("You've completed the signup, and we're so excited to have you on board. We recommend that you familiarize yourself with the \u201cDriver's Handbook\u201d tab - it contains information on what a normal day looks like driving with Belay, and answers to commonly asked questions.",null,"Let\u2019s do this.",null,"images/confetti.png",this.c,"You're all set to drive!")}}
+D:function(a,b){return D.qh("You've completed the signup, and we're so excited to have you on board. We recommend that you familiarize yourself with the \u201cDriver's Handbook\u201d tab - it contains information on what a normal day looks like driving with Belay, and answers to commonly asked questions. In order for us to pay you, please integrate your preferred account under \u201cPayments.\u201d",null,"Let\u2019s do this.",null,"images/confetti.png",this.c,"You're all set to drive!")}}
 V.q4.prototype={
 D:function(a,b){var s,r,q,p,o,n=null,m=K.R(b).X,l=Y.lU(b,!1,t.UY)
 $.cc.ck(new E.ue(l,n),t.H)
@@ -37005,7 +37005,7 @@ if(p!=null){q.a=0
 s=H.a([],t.Qh)
 C.c.a7(J.uy(p),new V.YY(q,s))
 p=t.PA
-return T.b7(H.a([new Q.m2("Overall Session","Guaranteed Minimum","$"+C.d.U(q.a*this.a,2),r),T.b7(P.aE(new H.ai(s,new V.YZ(),p),!0,p.i("aX.E")),C.B,C.v,C.p)],t.p),C.B,C.v,C.p)}return M.P(r,r,C.h,r,r,r,r,r,r,r,r,r,r)},
+return T.b7(H.a([new Q.m2("Total guarantee of","While Driving Your Chosen Blocks","$"+C.d.U(q.a*this.a,2),r),T.b7(P.aE(new H.ai(s,new V.YZ(),p),!0,p.i("aX.E")),C.B,C.v,C.p)],t.p),C.B,C.v,C.p)}return M.P(r,r,C.h,r,r,r,r,r,r,r,r,r,r)},
 $S:375}
 V.YY.prototype={
 $1:function(a){var s,r=a.b,q=r.af(0,"start_time"),p=a.a
