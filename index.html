@@ -35,6 +35,21 @@
   <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-messaging.js"></script>
   <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-analytics.js"></script>
   <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '271819348247879');
+    fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=271819348247879&ev=PageView&noscript=1"
+    /></noscript>
+  <script>
     var firebaseConfig = {
       apiKey: "AIzaSyD2jH6xpfJ3jEIsVHirSFAL3VwCyem9_Lk",
       authDomain: "infra-test-308817.firebaseapp.com",
@@ -53,7 +68,7 @@
        application. For more information, see:
        https://developers.google.com/web/fundamentals/primers/service-workers -->
   <script>
-    var serviceWorkerVersion = '3596547289';
+    var serviceWorkerVersion = '212690522';
     var scriptLoaded = false;
     function loadMainDartJs() {
       if (scriptLoaded) {
