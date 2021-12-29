@@ -36943,10 +36943,10 @@ break}l=J.akS(J.al(e.a,0))
 d=e.a
 c=J.ao(d)
 k=J.ax5(c.h(d,c.gp(d)-1))
-if(C.e.bo(P.cl(0,0,0,k.a-l.a,0,0).a,864e8)<3){m.d.sl(0,"Please schedule sessions for at least 3 days.")
+if(C.e.bo(P.cl(0,0,0,k.a-l.a,0,0).a,864e8)<2){m.d.sl(0,"Please schedule sessions for at least 3 days.")
 f.sl(0,!1)
 s=1
-break}try{self.fbq('track','Purchase',{value:0.00,currency:'USD'})()}catch(a5){j=H.G(a5)
+break}try{self.fbq('track','Purchase')()}catch(a5){j=H.G(a5)
 P.da(j)}d=m.a
 c=d.f
 a=m.e.b.a.c
