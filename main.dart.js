@@ -36328,7 +36328,7 @@ s=$.bM
 s.toString
 r=M.aa(n,U.wk(200*s,new L.iy("images/robot.png"),n),C.i,n,n,n,n,n,n,new V.B(0,122*s,0,0),n,n,n)
 q=M.aa(n,L.V("Calculating your rates",n,n,n,$.os,C.y,n),C.i,n,n,n,n,n,n,new V.B(0,65*s,0,0),n,n,n)
-s=M.aa(n,L.V("Hang on tight! Our robots are calculating your guarantee. This will take between 15 and 30 seconds.",n,n,n,$.fE,C.y,n),C.i,n,n,n,n,n,n,new V.B(0,35*s,0,85*s),n,n,n)
+s=M.aa(n,L.V("Hang on tight! Our robots are calculating your guarantee, which you\u2019ll see after you add time blocks. This will take between 15 and 30 seconds.",n,n,n,$.fE,C.y,n),C.i,n,n,n,n,n,n,new V.B(0,35*s,0,85*s),n,n,n)
 p=$.md
 p.toString
 p=20*p
@@ -36389,7 +36389,7 @@ L.a0u.prototype={
 $1:function(a){return new M.mm(null,this.a.c,!1,null)},
 $S:85}
 N.rv.prototype={
-E:function(a,b){return new D.eb(new N.a71(this,b),"images/hand_phone.png","1. Connect your Uber account","We use your unique driving profile and aggregate regional data to generate your minimum guaranteed income.","Continue",new N.a72(b),null)}}
+E:function(a,b){return new D.eb(new N.a71(this,b),"images/hand_phone.png","Step 1: Connect your Uber account","We use your unique driving profile and aggregate regional data to generate your minimum guaranteed incomes.","Next",new N.a72(b),null)}}
 N.a71.prototype={
 $0:function(){var s=V.cX(new N.a70(this.a),null,t.z)
 K.b0(this.b,!1).cU(s)},
@@ -36402,7 +36402,7 @@ $0:function(){K.b0(this.a,!1).d3(0,null)
 return null},
 $S:0}
 F.rw.prototype={
-E:function(a,b){return new D.eb(new F.a74(this,b),"images/car.png","2. Let us know when you\u2019ll drive","We will only guarantee your minimum income for the driving sessions you set, but there are no penalties for missing them.","Continue",new F.a75(b),null)}}
+E:function(a,b){return new D.eb(new F.a74(this,b),"images/car.png","Step 2: Choose the days and times you want your guarantee.","We guarantee your income during the time blocks you choose, and there are no penalties for missing one. ","Next",new F.a75(b),null)}}
 F.a74.prototype={
 $0:function(){var s=V.cX(new F.a73(this.a),null,t.z)
 K.b0(this.b,!1).cU(s)},
@@ -36415,7 +36415,7 @@ $0:function(){K.b0(this.a,!1).d3(0,null)
 return null},
 $S:0}
 O.rx.prototype={
-E:function(a,b){return new D.eb(new O.a77(this,b),"images/money_sack.png","3. Drive as you normally do","If you earn less than your guarantee, Belay will pay the difference. If you earn more, you keep it, minus a small 0-4% service fee.","Start",new O.a78(b),null)}}
+E:function(a,b){return new D.eb(new O.a77(this,b),"images/money_sack.png","Step 3: Drive as you normally do","Earn less than guaranteed in a given week and receive the difference to your account. Earn more and we charge a service fee of at most 4% of your guarantee.","Start",new O.a78(b),null)}}
 O.a77.prototype={
 $0:function(){var s=V.cX(new O.a76(this.a),null,t.z)
 K.b0(this.b,!1).cU(s)},
@@ -36717,7 +36717,7 @@ E:function(a,b){var s,r,q,p,o,n,m,l,k=null,j=$.bM
 j.toString
 s=M.aa(k,U.wk(200*j,new L.iy("images/charts.png"),k),C.i,k,k,k,k,k,k,new V.B(0,155*j,0,0),k,k,k)
 r=M.aa(k,L.V("Your driving insights",k,k,k,$.os,C.y,k),C.i,k,k,k,k,k,k,new V.B(0,65*j,0,0),k,k,k)
-j=M.aa(k,L.V("We\u2019re done crunching your data! In the past couple months you earned about (per hr):",k,k,k,$.fE,C.y,k),C.i,k,k,k,k,k,k,new V.B(0,35*j,0,15*j),k,k,k)
+j=M.aa(k,L.V("We\u2019re done crunching your data! Over the past two months, you averaged, per hour:",k,k,k,$.fE,C.y,k),C.i,k,k,k,k,k,k,new V.B(0,35*j,0,15*j),k,k,k)
 q=this.c
 p="$"+q[0]
 o=K.a9(b).a4.a
@@ -36731,13 +36731,13 @@ p=K.a9(b).a4.a
 p.toString
 l=$.bM
 l.toString
-l=T.b2(H.a([M.aa(k,L.V(o,k,k,k,p.eE($.ey(),26*l),C.y,k),C.i,k,k,k,k,k,k,new V.B(0,25,0,0),k,k,k),L.V("Standard Days",k,k,k,$.dn,C.y,k)],m),C.q,C.r,C.l)
+l=T.b2(H.a([M.aa(k,L.V(o,k,k,k,p.eE($.ey(),26*l),C.y,k),C.i,k,k,k,k,k,k,new V.B(0,25,0,0),k,k,k),L.V("Normal Days",k,k,k,$.dn,C.y,k)],m),C.q,C.r,C.l)
 q="$"+q[2]
 p=K.a9(b).a4.a
 p.toString
 o=$.bM
 o.toString
-o=M.aa(k,T.b2(H.a([s,r,j,T.cg(H.a([n,l,T.b2(H.a([M.aa(k,L.V(q,k,k,k,p.eE($.ey(),26*o),C.y,k),C.i,k,k,k,k,k,k,new V.B(0,25,0,0),k,k,k),L.V("Good Days",k,k,k,$.dn,C.y,k)],m),C.q,C.r,C.l)],m),C.q,C.dl,C.l)],m),C.aa,C.r,C.l),C.i,k,k,k,k,k,k,new V.B(22,0,22,0),k,k,k)
+o=M.aa(k,T.b2(H.a([s,r,j,T.cg(H.a([n,l,T.b2(H.a([M.aa(k,L.V(q,k,k,k,p.eE($.ey(),26*o),C.y,k),C.i,k,k,k,k,k,k,new V.B(0,25,0,0),k,k,k),L.V("Great Days",k,k,k,$.dn,C.y,k)],m),C.q,C.r,C.l)],m),C.q,C.dl,C.l)],m),C.aa,C.r,C.l),C.i,k,k,k,k,k,k,new V.B(22,0,22,0),k,k,k)
 p=$.bM
 p.toString
 return M.fB(T.kF(C.bh,H.a([o,T.HD(75*p,M.aa(k,D.lw(L.V("Let's do this.",k,k,k,k,k,k),new D.ab0(this),$.kH),C.i,k,k,k,k,k,k,k,k,k,k),k,k,30,30,k,k)],m),C.be),k)}}
@@ -36914,7 +36914,7 @@ return P.S(null,r)}})
 return P.T($async$$0,r)},
 $S:13}
 Y.Zq.prototype={
-$1:function(a){return new D.eb(new Y.Zk(a),"images/car.png","Day to day operations","Simple drive during any of your chosen sessions while maintaining a 75% acceptance rate. If you make less than your guaranteed rate, we\u2019ll deposit the difference in your account at the end of the day.","Back",null,null)},
+$1:function(a){return new D.eb(new Y.Zk(a),"images/car.png","Day to day operations","Simply drive during any of your chosen time blocks while maintaining a 75% acceptance rate! You can also add new time blocks right before you drive, and it will count towards your overall end of week guarantee.","Back",null,null)},
 $S:30}
 Y.Zk.prototype={
 $0:function(){K.b0(this.a,!1).d3(0,null)
@@ -36929,7 +36929,7 @@ return P.S(null,r)}})
 return P.T($async$$0,r)},
 $S:13}
 Y.Zp.prototype={
-$1:function(a){return new D.eb(new Y.Zj(a),"images/money_sack.png","Payment schedule and structure","If you make less than guaranteed over your schedule, the cash we give you is yours to keep. Otherwise, we charge it back at the end of your schedule. You\u2019ll always earn at least your guarantee, no matter what.","Back",null,null)},
+$1:function(a){return new D.eb(new Y.Zj(a),"images/money_sack.png","Payment schedule and structure","Every Sunday we look at your time blocks in the past week to see if you've met your guarantee overall. If you earned under the guarantee, we pay you the difference, and the cash is yours to keep. If you made over your guarantee, we charge a small 0-4% service fee. You\u2019ll always earn at least your guarantee, no matter what.","Back",null,null)},
 $S:30}
 Y.Zj.prototype={
 $0:function(){K.b0(this.a,!1).d3(0,null)
@@ -37095,11 +37095,11 @@ m=t.p
 l=H.a([],m)
 if(i.b.c.e==="scheduling"){k=$.md
 k.toString
-l.push(new T.aQ(new V.B(15,40,15,20),T.b2(H.a([U.wk(h,new L.iy("images/calendar.png"),150*k),new T.aQ(new V.B(0,30,0,15),L.V("Adding your first session",h,h,h,$.fE.a7N(C.aw),h,h),h),L.V("We split our day into 4 sessions - morning, afternoon, evening, and overnight. Select the sessions you want to drive and roughly how many hours each. You will only be guaranteed for the times you drive but are free to miss sessions.",h,h,h,$.dn,C.y,h)],m),C.q,C.r,C.l),h))}else{k=$.ey()
+l.push(new T.aQ(new V.B(15,40,15,20),T.b2(H.a([U.wk(h,new L.iy("images/calendar.png"),150*k),new T.aQ(new V.B(0,30,0,15),L.V("Adding your first time block",h,h,h,$.fE.a7N(C.aw),h,h),h),L.V("We split each day into 4 blocks - morning, afternoon, evening, and overnight. Select the blocks you want to drive and roughly how many hours each. You will only be guaranteed for the times you drive and are free to miss blocks.",h,h,h,$.dn,C.y,h)],m),C.q,C.r,C.l),h))}else{k=$.ey()
 j=K.jH(new P.bd(50,50))
 l.push(new T.aQ(new V.B(0,0,0,15),M.aa(h,T.cg(H.a([M.aa(h,D.lw(T.cg(H.a([new T.aQ(new V.B(0,0,5,0),L.dM(C.rc,h,20),h),L.V("Upcoming",h,h,h,h,h,h)],m),C.q,C.bx,C.l),new Q.a5Q(r),i.c),C.i,h,h,h,h,h,h,h,h,h,130),M.aa(h,D.lw(new T.aQ(new V.B(0,0,8,0),T.cg(H.a([new T.aQ(new V.B(0,0,5,0),L.dM(C.r7,h,20),h),L.V("History",h,h,h,h,h,h)],m),C.q,C.bx,C.l),h),new Q.a5R(r),i.d),C.i,h,h,h,h,h,h,h,h,h,130)],m),C.q,C.r,C.l),C.i,h,h,new S.cO(k,h,h,j,h,h,C.a_),h,40,h,h,h,h,260),h))}if(r.a){r=$.md
 r.toString
-l.push(M.aa(h,B.aqT(C.G0,i.e,$.amw),C.i,h,h,h,h,h,h,new V.B(5,10,5,15),h,h,340*r))}l.push(s)
+l.push(M.aa(h,B.aqT(C.G1,i.e,$.amw),C.i,h,h,h,h,h,h,new V.B(5,10,5,15),h,h,340*r))}l.push(s)
 return B.wP(H.a([new B.nv(p,g,h),T.t1(M.aa(h,T.b2(l,C.q,C.r,C.l),C.i,h,h,new S.cO(o,h,h,n,h,h,C.a_),h,h,h,new V.B(20,25,20,0),h,h,h),new P.l(0,-20))],m))},
 $C:"$2",
 $R:2,
@@ -37162,7 +37162,7 @@ k=t.p
 l=M.aa(j,T.cg(H.a([T.b2(H.a([o,L.V(m,j,j,j,l.ce($.ey()),j,j)],k),C.q,C.r,C.l)],k),C.q,C.dl,C.l),C.i,j,j,j,j,j,j,new V.B(0,0,0,15),j,j,j)
 m=$.bM
 m.toString
-return M.fB(B.wP(H.a([new T.hy(C.aH,j,j,new T.aQ(new V.B(10,10,0,0),new R.pt(j,j),j),j),l,T.d0(M.aa(j,new Y.vu(new Y.a6P(q,h),$.cl.cw(new E.c1(0,j,s),r),$.cl.cw(new E.c1(0,j,s),r),$.cl.cw(new E.c1(0,j,s),r),$.cl.cw(new E.c1(0,j,s),r),j),C.i,j,j,j,j,j,j,new V.B(15,0,0,0),j,j,j),500*m,j),M.aa(j,D.lw(L.V("Add Sessions",j,j,j,j,j,j),new Y.a6Q(this,p,i,h,b),$.kH),C.i,j,j,j,j,j,j,new V.B(25,20,25,20),j,j,j)],k)),j)}}
+return M.fB(B.wP(H.a([new T.hy(C.aH,j,j,new T.aQ(new V.B(10,10,0,0),new R.pt(j,j),j),j),l,T.d0(M.aa(j,new Y.vu(new Y.a6P(q,h),$.cl.cw(new E.c1(0,j,s),r),$.cl.cw(new E.c1(0,j,s),r),$.cl.cw(new E.c1(0,j,s),r),$.cl.cw(new E.c1(0,j,s),r),j),C.i,j,j,j,j,j,j,new V.B(15,0,0,0),j,j,j),500*m,j),M.aa(j,D.lw(L.V("Finish Adding Blocks",j,j,j,j,j,j),new Y.a6Q(this,p,i,h,b),$.kH),C.i,j,j,j,j,j,j,new V.B(25,20,25,20),j,j,j)],k)),j)}}
 Y.a6Q.prototype={
 $0:function(){var s=0,r=P.U(t.z),q=1,p,o=[],n=this,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8
 var $async$$0=P.O(function(b0,b1){if(b0===1){p=b1
@@ -37331,7 +37331,7 @@ o=V.eB(Q.kc(new V.B(20,10,20,10),j,j,L.V("Doordash",j,j,j,o,j,j),new B.m8(new P.
 n=$.bM
 n.toString
 n=H.a([new T.aQ(new V.B(10,0,0,15),q,j),l,k,o,new T.aQ(new V.B(10,20,0,15),T.cg(H.a([new T.aQ(new V.B(0,0,5,0),L.dM(C.ra,j,25*n),j),L.V("Financial Accounts",j,j,j,$.e1,j,j)],p),C.q,C.r,C.l),j)],p)
-if(!f.r)n.push(B.aqT(C.G1,new G.a6Y(b),$.amw))
+if(!f.r)n.push(B.aqT(C.G0,new G.a6Y(b),$.amw))
 else n.push(V.eB(Q.kc(new V.B(20,10,20,10),j,j,L.V("Bank Account",j,j,j,$.fE,j,j),new B.m8($.ey(),i,j),C.b_),new V.B(0,0,0,10),C.z))
 return M.fB(B.wP(H.a([new B.nv("My Profile and","Settings",j),T.t1(M.aa(j,new T.aQ(new V.B(20,30,20,0),T.b2(n,C.aa,C.r,C.l),j),C.i,j,j,new S.cO(s,j,j,r,j,j,C.a_),j,j,j,j,j,j,j),new P.l(0,-20))],p)),j)}}
 G.a6X.prototype={
@@ -74348,8 +74348,8 @@ C.F1=new A.r(!0,C.k,null,"Segoe UI",null,null,null,null,null,null,null,null,null
 C.E1=new A.r(!0,C.k,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,C.h,null,null,null,"whiteRedmond overline",null,null)
 C.G_=new R.ef(C.ER,C.ES,C.ET,C.EU,C.Fy,C.Fz,C.EN,C.EO,C.DS,C.DT,C.D6,C.F1,C.E1)
 C.mY=new U.Ke("TextWidthBasis.longestLine")
-C.G0=new L.ow("+ Add Sessions",null,null,null,null,null,null,null,null)
-C.G1=new L.ow("Enable Instant Payments",null,null,null,null,null,null,null,null)
+C.G0=new L.ow("Enable Instant Payments",null,null,null,null,null,null,null,null)
+C.G1=new L.ow("+ Add Time Blocks",null,null,null,null,null,null,null,null)
 C.In=new S.aa6("ThemeMode.system")
 C.G2=new M.z5(null)
 C.dN=new P.rY(0,"TileMode.clamp")
