@@ -36389,7 +36389,7 @@ L.a0u.prototype={
 $1:function(a){return new M.mm(null,this.a.c,!1,null)},
 $S:85}
 N.rv.prototype={
-E:function(a,b){return new D.eb(new N.a71(this,b),"images/hand_phone.png","Step 1: Connect your Uber account","We use your unique driving profile and aggregate regional data to generate your minimum guaranteed incomes.","Next",new N.a72(b),null)}}
+E:function(a,b){return new D.eb(new N.a71(this,b),"images/hand_phone.png","Step 1: Connect your Uber account","We use your unique driving profile and aggregate regional data to generate your minimum guaranteed incomes. We do not yet serve UberEats, but you can email support@ridebelay.com to ask to join our alpha.","Next",new N.a72(b),null)}}
 N.a71.prototype={
 $0:function(){var s=V.cX(new N.a70(this.a),null,t.z)
 K.b0(this.b,!1).cU(s)},
@@ -36415,7 +36415,7 @@ $0:function(){K.b0(this.a,!1).d3(0,null)
 return null},
 $S:0}
 O.rx.prototype={
-E:function(a,b){return new D.eb(new O.a77(this,b),"images/money_sack.png","Step 3: Drive as you normally do","Earn less than guaranteed in a given week and receive the difference to your account. Earn more and we charge a service fee of at most 4% of your guarantee.","Start",new O.a78(b),null)}}
+E:function(a,b){return new D.eb(new O.a77(this,b),"images/money_sack.png","Step 3: Drive with peace of mind","Earn less than guaranteed in a given week and we send the difference straight to your account. Our service fee of at most 4% applies only in weeks that earnings exceed guaranteed income.","Start",new O.a78(b),null)}}
 O.a77.prototype={
 $0:function(){var s=V.cX(new O.a76(this.a),null,t.z)
 K.b0(this.b,!1).cU(s)},
