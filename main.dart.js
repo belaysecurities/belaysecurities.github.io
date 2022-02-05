@@ -37071,7 +37071,7 @@ return P.T(null,r)}})
 return P.U($async$$0,r)},
 $S:14}
 Y.ZH.prototype={
-$1:function(a){return new D.eg(new Y.ZB(a),"images/car.png","Day to day operations","Simply drive during any of your chosen time blocks while maintaining a 75% acceptance rate! You can also add new time blocks right before you drive, and it will count towards your overall end of week guarantee.","Back",null,null)},
+$1:function(a){return new D.eg(new Y.ZB(a),"images/car.png","Day to day operations","Simply drive for at least 45 minutes in any of your chosen time blocks while maintaining a 85% acceptance rate, and have UberX enabled. We don't change how you cash out with Uber.","Back",null,null)},
 $S:30}
 Y.ZB.prototype={
 $0:function(){K.aV(this.a,!1).cR(0,null)
