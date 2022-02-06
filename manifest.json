@@ -1,11 +1,11 @@
 {
-    "name": "belay2",
-    "short_name": "belay2",
+    "name": "belay",
+    "short_name": "belay",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "Stabilize your income.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
