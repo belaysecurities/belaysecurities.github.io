@@ -41910,7 +41910,7 @@ return A.M(null,r)}})
 return A.N($async$$0,r)},
 $S:17}
 A.a2F.prototype={
-$1(a){return A.p1("Simply maintain a 85% acceptance rate, have UberX enabled, and drive a minimum of 1 hour per time block to qualify for your guarantee! We don't change how you cash out with Uber.","Back","images/car.png",null,null,new A.a2z(a),"Day to day operations")},
+$1(a){return A.p1("Simply maintain a 80% acceptance rate, have UberX enabled, and drive a minimum of 1 hour per time block to qualify for your guarantee! We don't change how you cash out with Uber.","Back","images/car.png",null,null,new A.a2z(a),"Day to day operations")},
 $S:34}
 A.a2z.prototype={
 $0(){A.am(this.a,!1).c9(0,null)
